@@ -1,5 +1,12 @@
 {
-  "environment_variables": [],
+  "environment_variables": [{
+      "name": "key1",
+      "value": "value1"
+    },
+    {
+      "name": "keyd",
+      "value": "bar"
+    }],
   "format_version": 1,
   "group": "configrepo-example",
   "materials": [
