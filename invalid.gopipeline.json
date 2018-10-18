@@ -17,7 +17,7 @@
 "url": "https://github.com/bdpiparva/config_repo_sample"
 }
 ],
-"name": "firstpipe",
+"name": "firstpipebar",
 "stages": [
 {
 "clean_working_directory": false,
@@ -28,7 +28,7 @@
 "artifacts": [
 {
 "source": "*.json",
-"type": "test"
+"type1": "test"
 },
 {
 "source": "*.zip",
