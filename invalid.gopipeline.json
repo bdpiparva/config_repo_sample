@@ -1,0 +1,61 @@
+{
+"environment_variables": [
+{
+"name": "key1",
+"value": "value1"
+},
+{
+"name": "keyd",
+"value": "bar"
+}
+],
+"format_version": 1,
+"group": "configrepo-example",
+"materials": [
+{
+"type": "git",
+"url": "https://github.com/bdpiparva/config_repo_sample"
+}
+],
+"name": "firstpipe",
+"stages": [
+{
+"clean_working_directory": false,
+"environment_variables": [],
+"fetch_materials": true,
+"jobs": [
+{
+"artifacts": [
+{
+"source": "*.json",
+"type": "test"
+},
+{
+"source": "*.zip",
+"type": "build"
+}
+],
+"environment_variables": [],
+"name": "build",
+"properties": [],
+"resources": [],
+"run_instance_count": null,
+"tabs": [],
+"tasks": [
+{
+"arguments": [],
+"command": "ls",
+"on_cancel": null,
+"run_if": "passed",
+"type": "exec",
+"working_directory": null
+}
+],
+"timeout": 0
+}
+],
+"name": "build",
+"never_cleanup_artifacts": false
+}
+]
+}
