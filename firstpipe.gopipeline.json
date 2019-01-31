@@ -38,6 +38,7 @@
           "properties": [],
           "resources": [],
           "run_instance_count": null,
+          "elastic_profile_id": "Foo",
           "tabs": [],
           "tasks": [
             {
